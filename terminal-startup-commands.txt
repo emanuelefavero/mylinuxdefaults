@@ -1,4 +1,4 @@
-ADD THESE COMMANDS TO .zshrc TO RUN THESE WHEN TERMINAL OPENS
+ADD THESE COMMANDS TO .zshrc OR .bashrc TO RUN THESE WHEN TERMINAL OPENS
 
 # screenfetch 2>/dev/null &&
 ifconfig | grep '192.168.' && figlet $(whoami) @

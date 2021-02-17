@@ -1,0 +1,7 @@
+ROSETTA2: /usr/local/bin/brew
+NATIVE: /opt/homebrew/bin/brew
+
+use full path for specific version
+Example: /usr/local/bin/brew install zsh
+
+which brew COMMAND TELLS YOU WHICH BREW IS THE brew COMMAND REFERRING TO

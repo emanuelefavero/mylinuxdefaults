@@ -1,0 +1,152 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"$forAll[i]": {
+		"prefix": "$forAll[i]",
+		"body": [
+			"for (let i = 0; i < document.querySelectorAll('.').length; i++) {",
+			"    document.querySelectorAll('')[i];",
+			"}"
+		],
+		"description": "$forAll[i]"
+	}
+	"$forAll[i]EVENT": {
+		"prefix": "$forAll[i]EVENT",
+		"body": [
+			"for (let i = 0; i < document.querySelectorAll('.').length; i++) {",
+			"    document.querySelectorAll('')[i].addEventListener('click', () => {",
+			"",
+			"    });",
+			"}"
+		],
+		"description": "$forAll[i]EVENT"
+	}
+	"$EVENT": {
+		"prefix": "$EVENT",
+		"body": [
+			"document.querySelector('.').addEventListener('click', () => {",
+			"",
+			"});"
+		],
+		"description": "$EVENT"
+	}
+	"$All[0]EVENT": {
+		"prefix": "$All[0]EVENT",
+		"body": [
+			"document.querySelectorAll('.')[0].addEventListener('click', () => {",
+			"",
+			"});"
+		],
+		"description": "$All[0]EVENT"
+	}
+	"$idEVENT": {
+		"prefix": "$idEVENT",
+		"body": [
+			"document.getElementById('').addEventListener('click', () => {",
+			"",
+			"});"
+		],
+		"description": "$idEVENT"
+	}
+	"$": {
+		"prefix": "$",
+		"body": [
+			"document.querySelector('.');"
+		],
+		"description": "$"
+	}
+	"$All[0]": {
+		"prefix": "$All[0]",
+		"body": [
+			"document.querySelectorAll('.')[0];"
+		],
+		"description": "$All[0]"
+	}
+	"$id": {
+		"prefix": "$id",
+		"body": [
+			"document.getElementById('');"
+		],
+		"description": "$id"
+	}
+	"addEVENT": {
+		"prefix": "addEVENT",
+		"body": [
+			".addEventListener('click', () => {",
+			"",
+			"})"
+		],
+		"description": "addEVENT"
+	}
+	"express server": {
+		"prefix": "serverExpress",
+		"body": [
+			"// IMPORT AND USE express, body-parser NPM LIBRARIES",
+			"const express = require('express');",
+			"const bodyParser = require('body-parser');",
+			"// const request = require('request');",
+			"const app = express();",
+			"app.use(bodyParser.urlencoded({extended: true}));",
+			"// CHOOSE PORT",
+			"const port = 3000; // localhost:3000",
+			"",
+			"// GET",
+			"app.get('/', (req, res) => {",
+			"    res.send('Server is up and running');",
+			"});",
+			"",
+			"// POST",
+			"// app.post('/', (req, res) => {",
+			"//     res.send();",
+			"// });",
+			"",
+			"// PORT",
+			"app.listen(port, () => {",
+			"    console.log('Server is running on port ' + port);",
+			"});",
+			""
+		],
+		"description": "express server"
+	}
+	"node server template": {
+		"prefix": "node-server-snippet",
+		"body": [
+			"// IMPORT AND USE express, body-parser NPM LIBRARIES",
+			"const express = require('express');",
+			"const bodyParser = require('body-parser');",
+			"// const request = require('request');",
+			"const app = express();",
+			"app.use(bodyParser.urlencoded({extended: true}));",
+			"// CHOOSE PORT",
+			"const port = 3000; // localhost:3000",
+			"",
+			"// GET",
+			"app.get('/', (req, res) => {",
+			"    res.send('Server is up and running');",
+			"});",
+			"",
+			"// POST",
+			"// app.post('/', (req, res) => {",
+			"//     res.send();",
+			"// });",
+			"",
+			"// PORT",
+			"app.listen(port, () => {",
+			"    console.log('Server is running on port ' + port);",
+			"});",
+			""
+		],
+		"description": "node server snippet"
+	}
+}

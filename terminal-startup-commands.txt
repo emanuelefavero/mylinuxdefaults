@@ -1,0 +1,10 @@
+ADD THESE COMMANDS TO .zshrc TO RUN THESE WHEN TERMINAL OPENS
+
+# screenfetch 2>/dev/null &&
+ifconfig | grep '192.168.' && figlet $(whoami) @
+
+alias py="python3"
+
+alias startmongo="brew services start mongodb-community@4.4"
+alias stopmongo="brew services stop mongodb-community@4.4"
+alias checkmongo="brew services list"

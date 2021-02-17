@@ -1,0 +1,186 @@
+{
+	// Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Helvetica-font-CSS": {
+		"prefix": "helvetica-font",
+		"body": [
+			"font-family: -apple-system, 'Helvetica Neue', Helvetica, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;"
+		],
+		"description": "Helvetica-font-CSS"
+	}
+
+	"Roboto-font-CSS": {
+		"prefix": "roboto-font",
+		"body": [
+			"font-family: 'Roboto', -apple-system, 'Helvetica Neue', Helvetica, sans-serif;"
+		],
+		"description": "Roboto-font-CSS"
+	}
+
+	"Nunito-font-CSS": {
+		"prefix": "nunito-font",
+		"body": [
+			"font-family: 'Nunito', sans-serif;"
+		],
+		"description": "Nunito-font-CSS"
+	}
+
+	"Montserrat-font-CSS": {
+		"prefix": "montserrat-font",
+		"body": [
+			"font-family: 'Montserrat', sans-serif;"
+		],
+		"description": "Montserrat-font-CSS"
+	}
+
+	"Karla-font-CSS": {
+		"prefix": "karla-font",
+		"body": [
+			"font-family: 'Karla', sans-serif;"
+		],
+		"description": "Karla-font-CSS"
+	}
+
+	"Vollkorn-SC-font-CSS": {
+		"prefix": "vollkorn-SC-font",
+		"body": [
+			"font-family: 'Vollkorn SC', sans-serif;"
+		],
+		"description": "Vollkorn-SC-font-CSS"
+	}
+
+	"Vollkorn-font-CSS": {
+		"prefix": "vollkorn-font",
+		"body": [
+			"font-family: 'Vollkorn', sans-serif;"
+		],
+		"description": "Vollkorn-font-CSS"
+	}
+
+	"Varela-font-CSS": {
+		"prefix": "varela-font",
+		"body": [
+			"font-family: 'Varela', sans-serif;"
+		],
+		"description": "Varela-font-CSS"
+	}
+
+	"IBM-Plex-Sans-font-CSS": {
+		"prefix": "IBM-Sans-font",
+		"body": [
+			"font-family: 'IBM Plex Sans', sans-serif;"
+		],
+		"description": "IBM-Plex-Sans-font-CSS"
+	}
+
+	"IBM-Plex-Serif-font-CSS": {
+		"prefix": "IBM-Serif-font",
+		"body": [
+			"font-family: 'IBM Plex Serif', sans-serif;"
+		],
+		"description": "IBM-Plex-Serif-font-CSS"
+	}
+
+	"Fira-Code-font-CSS": {
+		"prefix": "fira-code-font",
+		"body": [
+			"font-family: 'Fira Code', sans-serif;"
+		],
+		"description": "Fira-Code-font-CSS"
+	}
+
+	"Crimson-Text-font-CSS": {
+		"prefix": "crimson-font",
+		"body": [
+			"font-family: 'Crimson Text', sans-serif;"
+		],
+		"description": "Crimson-Text-font-CSS"
+	}
+
+	"Playfair-Display-font-CSS": {
+		"prefix": "playfair-font",
+		"body": [
+			"font-family: 'Playfair Display', sans-serif;"
+		],
+		"description": "Playfair-Display-font-CSS"
+	}
+
+	"Lato-font-CSS": {
+		"prefix": "lato-font",
+		"body": [
+			"font-family: 'Lato', sans-serif;"
+		],
+		"description": "Lato-font-CSS"
+	}
+
+	"*-margin-padding-sizing": {
+		"prefix": "*",
+		"body": [
+			"* {",
+			"    margin: 0;",
+			"    padding: 0;",
+			"    box-sizing: border-box;",
+			"}",
+			"",
+			"input,",
+			"textarea,",
+			"button,",
+			"select,",
+			"a,",
+			"a:link,",
+			"a:visited,",
+			"a:hover,",
+			"a:active {",
+			"    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);",
+			"    text-decoration: none;",
+			"}"
+		],
+		"description": "*-margin-padding-sizing"
+	}
+
+	"mobile-tap-highlight-none": {
+		"prefix": "tap-highlight-none",
+		"body": [
+			"input,",
+			"textarea,",
+			"button,",
+			"select,",
+			"a {",
+			"    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);",
+			"}"
+		],
+		"description": "mobile-tap-highlight-none"
+	}
+
+	"Poppins Font CSS": {
+		"prefix": "poppins",
+		"body": [
+			"font-family: 'Poppins', sans-serif;"
+		],
+		"description": "Poppins Font CSS"
+	}
+	"center flex": {
+		"prefix": "center",
+		"body": [
+			"/* width: 100%; */",
+			"/* height: 100vh; */",
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;",
+			"/* text-align: center; */",
+			"/* flex-direction: column; */"
+		],
+		"description": "center flex"
+	}
+}

@@ -1,0 +1,16 @@
+AUTO CONNECT TO WIFI:
+
+sudo iwlist wlan0 scan
+
+sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
+
+-----
+network={
+   ssid="Test Wifi Network"
+   psk="SecretPassWord"
+}
+-----
+
+ifconfig wlan0
+
+sudo reboot

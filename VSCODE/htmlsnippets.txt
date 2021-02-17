@@ -1,0 +1,806 @@
+{
+    // Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    "bootstrap-5": {
+        "prefix": "!b5",
+        "body": [
+            "<!doctype html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Document</title>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "",
+            "    <!-- Font Awesome, TYPE fa- FOR SNIPPETS -->",
+            "    <script src=\"https://kit.fontawesome.com/fb89be9943.js\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "",
+            "    <!-- Bootstrap 5 CSS -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css\"",
+            "        integrity=\"sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I\"",
+            "        crossorigin=\"anonymous\">",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootstrap 5 JS -->",
+            "    <!-- Popper.js first, then Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\"",
+            "        integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "    <script",
+            "        src=\"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js\"",
+            "        integrity=\"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "bootstrap-5"
+    }
+
+    "bootstrap-4": {
+        "prefix": "!b4",
+        "body": [
+            "<!doctype html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Document</title>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\"",
+            "        content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">",
+            "",
+            "    <!-- Font Awesome, TYPE fa- FOR SNIPPETS -->",
+            "    <script src=\"https://kit.fontawesome.com/fb89be9943.js\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "",
+            "    <!-- Bootstrap 4 CSS -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\"",
+            "        integrity=\"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk\"",
+            "        crossorigin=\"anonymous\">",
+            "",
+            "    <title>Hello, world!</title>",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootstrap 4 JS -->",
+            "    <!-- jQuery first, then Popper.js, then Bootstrap JS -->",
+            "    <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"",
+            "        integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "    <script",
+            "        src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\"",
+            "        integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "    <script",
+            "        src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\"",
+            "        integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "bootstrap-4"
+    }
+
+    "font-awesome": {
+        "prefix": "font-awesome",
+        "body": [
+            "<!-- Font Awesome, TYPE fa- FOR SNIPPETS -->",
+            "<script src=\"https://kit.fontawesome.com/fb89be9943.js\"",
+            "crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "font-awesome"
+    }
+
+    "bootstrap-4-CSS": {
+        "prefix": "bootstrap-4-CSS",
+        "body": [
+            "<!-- Bootstrap 4 CSS -->",
+            "<link rel=\"stylesheet\"",
+            "href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\"",
+            "integrity=\"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYFfc+NcPb1dKGj7Sk\"",
+            "crossorigin=\"anonymous\">"
+        ],
+        "description": "bootstrap-4-CSS"
+    }
+
+    "bootstrap-4-JS": {
+        "prefix": "bootstrap-4-JS",
+        "body": [
+            "<!-- Bootsrap 4 JavaScript -->",
+            "    <!-- jQuery first, then Popper.js, then Bootstrap JS -->",
+            "    <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"",
+            "        integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "    <script",
+            "        src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\"",
+            "        integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "    <script",
+            "        src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js\"",
+            "        integrity=\"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI\"",
+            "        crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "bootstrap-4-JS"
+    }
+
+    "bootstrap-5-CSS": {
+        "prefix": "bootstrap-5-CSS",
+        "body": [
+            "<!-- Bootstrap 5 CSS -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css\"",
+            "        integrity=\"sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I\"",
+            "        crossorigin=\"anonymous\">"
+        ],
+        "description": "bootstrap-5-CSS"
+    }
+
+    "bootstrap-5-JS": {
+        "prefix": "bootstrap-5-JS",
+        "body": [
+            "<!-- Bootstrap 5 JS -->",
+            "    <!-- Popper.js first, then Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\"",
+            "        integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "    <script",
+            "        src=\"https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js\"",
+            "        integrity=\"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/\"",
+            "        crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "bootstrap-5-JS"
+    }
+
+    "Roboto-link": {
+        "prefix": "roboto-font",
+        "body": [
+            "<!-- Google Fonts Roboto -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Roboto-font-link"
+    }
+
+    "Nunito-link": {
+        "prefix": "nunito-font",
+        "body": [
+            "<!-- Google Fonts Nunito -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Nunito-font-link"
+    }
+
+    "Montserrat-link": {
+        "prefix": "montserrat-font",
+        "body": [
+            "<!-- Google Fonts Montserrat -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Montserrat-font-link"
+    }
+
+    "Karla-font-link": {
+        "prefix": "karla-font",
+        "body": [
+            "<!-- Google Fonts Karla -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Karla-font-link"
+    }
+
+    "Vollkorn-SC-font-link": {
+        "prefix": "vollkornSC-font",
+        "body": [
+            "<!-- Google Fonts Vollkorn SC -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Vollkorn-SC-font-link"
+    }
+
+    "Vollkorn-font-link": {
+        "prefix": "vollkorn-font",
+        "body": [
+            "<!-- Google Fonts Vollkorn -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700;800;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Vollkorn-font-link"
+    }
+
+    "Varela-font-link": {
+        "prefix": "varela-font",
+        "body": [
+            "<!-- Google Fonts Varela -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Varela&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Varela-font-link"
+    }
+
+    "IBM Plex-font-link": {
+        "prefix": "IBM-Sans-font",
+        "body": [
+            "<!-- Google Fonts IBM Plex Sans -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "IBM Plex-font-link"
+    }
+
+    "IBM Plex-Serif-font-link": {
+        "prefix": "IBM-Serif-font",
+        "body": [
+            "<!-- Google Fonts IBM Plex Serif -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "IBM Plex-Serif-font-link"
+    }
+
+    "Fira Code-font-link": {
+        "prefix": "fira-code-font",
+        "body": [
+            "<!-- Google Fonts Fira Code -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Fira Code-font-link"
+    }
+
+    "Crimson-font-link": {
+        "prefix": "Crimson-font",
+        "body": [
+            "<!-- Google Fonts Crimson Text -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Crimson-font-link"
+    }
+
+    "Playfair-font-link": {
+        "prefix": "playfair-font",
+        "body": [
+            "<!-- Google Fonts Playfair Display -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Playfair-font-link"
+    }
+
+    "Lato-font-link": {
+        "prefix": "lato-font",
+        "body": [
+            "<!-- Google Fonts Lato -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Lato-font-link"
+    }
+
+    "Bootswatch-Superhero": {
+        "prefix": "!bsuperhero",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Document</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Superhero -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/superhero/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "    ",
+            "",
+            "    <!-- Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Superhero"
+    }
+
+    "Bootswatch-Solar": {
+        "prefix": "!bsolar",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Solar -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/solar/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Solar"
+    }
+
+    "Bootswatch-Simplex": {
+        "prefix": "!bsimplex",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Simplex -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/simplex/bootstrap.min.css\">",
+            "    <!-- fontAwesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Simplex"
+    }
+
+    "Bootswatch-Litera": {
+        "prefix": "!blitera",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Litera -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/litera/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootsrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Litera"
+    }
+
+    "Bootswatch-Flatly": {
+        "prefix": "!bflatly",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Flatly -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/flatly/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "    <title>Title</title>",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootsrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Flatly"
+    }
+
+    "Bootswatch-Cyborg": {
+        "prefix": "!bcyborg",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Cyborg -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/cyborg/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootsrtrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Cyborg"
+    }
+
+    "Bootswatch-Lux": {
+        "prefix": "!blux",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Lux -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/lux/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Lux"
+    }
+
+    "Bootswatch-Pulse": {
+        "prefix": "!bpulse",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Bootswatch Pulse -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/pulse/bootstrap.min.css\">",
+            "    <!-- Font Awesome -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+            "    <!-- <link rel=\"stylesheet\" href=\"assets/css/style.css\"> -->",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "    <!-- Bootstrap JS -->",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js\">",
+            "    </script>",
+            "    <script",
+            "        src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js\">",
+            "    </script>",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bootswatch-Pulse"
+    }
+
+    "Bulma": {
+        "prefix": "!bulma",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html>",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "",
+            "    <!-- Font Awesome -->",
+            "    <script defer src=\"https://use.fontawesome.com/releases/v5.3.1/js/all.js\">",
+            "    </script>",
+            "",
+            "    <!-- Bulma CSS -->",
+            "    <link rel=\"stylesheet\"",
+            "        href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css\">",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Bulma"
+    }
+
+    "html-fa": {
+        "prefix": "!fa",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "    <!-- Font Awesome -->",
+            "    <script src=\"https://kit.fontawesome.com/fb89be9943.js\"",
+            "        crossorigin=\"anonymous\"></script>",
+            "",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "html-fa"
+    }
+
+    "html": {
+        "prefix": "!html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "html"
+    }
+
+    "Button Anchor Tag": {
+        "prefix": "a:button",
+        "body": [
+            "<a href=\"#\" role=\"button\"></a>"
+        ],
+        "description": "Button Anchor Tag"
+    }
+
+    "tailwind CSS CDN": {
+        "prefix": "tailwind",
+        "body": [
+            "<!-- Tailwind CSS CDN [can't customize default theme] -->",
+            "<link href=\"https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css\" rel=\"stylesheet\">"
+        ],
+        "description": "tailwind CSS CDN"
+    }
+
+    "Bulma CSS CDN": {
+        "prefix": "bulma",
+        "body": [
+            "<!-- Bulma CSS -->",
+            "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css\">"
+        ],
+        "description": "Bulma CSS CDN"
+    }
+
+    "Tailwind": {
+        "prefix": "!tailwind",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html>",
+            "",
+            "<head>",
+            "    <title>Title</title>",
+            "    <meta charset=\"utf-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "",
+            "    <!-- Font Awesome -->",
+            "    <script defer src=\"https://use.fontawesome.com/releases/v5.3.1/js/all.js\">",
+            "    </script>",
+            "",
+            "    <!-- Tailwind CSS CDN [can't customize default theme] -->",
+            "    <link href=\"https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css\" rel=\"stylesheet\">",
+            "</head>",
+            "",
+            "<body>",
+            "",
+            "",
+            "",
+            "</body>",
+            "",
+            "</html>",
+            ""
+        ],
+        "description": "Tailwind"
+    }
+
+    "Poppins Font Link": {
+        "prefix": "poppins",
+        "body": [
+            "<!-- Google Fonts Poppins -->",
+            "<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Poppins Font Link"
+    }
+
+    "jquery CDN": {
+        "prefix": "jquery",
+        "body": [
+            "<!-- jquery -->",
+            "    <script",
+            "        src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\">",
+            "    </script>"
+        ],
+        "description": "jquery CDN"
+    }
+    "Tone JS CDN": {
+        "prefix": "toneJS",
+        "body": [
+            "<!-- Tone JS CDN -->",
+            "    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.60/Tone.js\"",
+            "        integrity=\"sha512-+luS5BFaFcKtV15UoNKA+FYZS9K4PkkE4yK2mO/g+99/24OJikgxvEhGRQs7YOPNpPw7hBxv1aQfS1CZryD3qQ==\"",
+            "        crossorigin=\"anonymous\"></script>"
+        ],
+        "description": "Tone JS CDN"
+    }
+}

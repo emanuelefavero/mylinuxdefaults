@@ -20,7 +20,7 @@ sudo pip install gpiozero
 sudo apt install nodejs
 npm install -g npm
 
-INSTALLING MICRO PYTHON:
+INSTALLING MICRO PYTHON (IT TAKES TOO LONG, ONLY DO IF NECESSARY):
 
 sudo apt-get install git
 sudo apt-get install build-essential

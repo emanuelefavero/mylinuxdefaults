@@ -2,12 +2,13 @@ sudo apt-get install vim
 INSTALL THEMES HERE:
 /usr/share/vim/vim*/colors/
 
+sudo apt-get install git
+
 sudo apt install figlet
 sudo apt install screenfetch
 sudo apt install htop
 
-sudo apt install python3-pip
-pip3
+sudo apt-get install python3-pip
 
 sudo apt install python3-gpiozero
 sudo apt install python-gpiozero
@@ -18,7 +19,6 @@ sudo pip install gpiozero
 
 nodejs
 npm
-sudo apt-get install git
 
 INSTALLING MICRO PYTHON:
 

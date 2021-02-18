@@ -17,8 +17,8 @@ INSTALL gpiozero IN ANOTHER OS:
 sudo pip3 install gpiozero
 sudo pip install gpiozero
 
-nodejs
-npm
+sudo apt install nodejs
+npm install -g npm
 
 INSTALLING MICRO PYTHON:
 

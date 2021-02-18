@@ -4,6 +4,7 @@ INSTALL THEMES HERE:
 
 sudo apt install figlet
 sudo apt install screenfetch
+sudo apt install htop
 
 sudo apt install python3-pip
 pip3

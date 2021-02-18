@@ -2,6 +2,9 @@ sudo apt-get install vim
 INSTALL THEMES HERE:
 /usr/share/vim/vim*/colors/
 
+sudo apt install figlet
+sudo apt install screenfetch
+
 sudo apt install python3-pip
 pip3
 

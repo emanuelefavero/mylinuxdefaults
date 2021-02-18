@@ -1,3 +1,5 @@
+sudo apt-get install vim
+
 sudo apt install python3-pip
 pip3
 
